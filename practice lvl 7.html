@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice lvl 7</title>
+    <style>
+        #progress-container{
+            width: 90%;
+            height: 25px;
+            background-color: lightgoldenrodyellow;
+            border: 2px solid black;
+            border-radius: 20px;
+            position: relative;
+            left: 4%;
+        }
+        #progress-bar{
+            background-color: burlywood;
+            height: 100%;
+            border-radius: 20px;
+            animation: animate-progres 5s 0s normal;
+        }
+        @keyframes animate-progres {
+            0%{width: 0%;}
+            90%{width: 95%;}
+            95%{width: 70%;}
+            100%{width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <h1>practice lvl 7</h1>
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+</body>
+</html>
